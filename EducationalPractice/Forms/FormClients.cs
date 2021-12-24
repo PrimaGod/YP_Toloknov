@@ -31,20 +31,7 @@ namespace EducationalPractice
             
         }
 
-        //void Loading(string sql) //Способ загрузки таблицы
-        //{
-        //    string connectionString = (conString);
-
-        //    using (SqlConnection connection = new SqlConnection(connectionString))
-        //    {
-        //        connection.Open();
-        //        SqlDataAdapter adapter = new SqlDataAdapter(sql, connection);
-        //        DataSet ds = new DataSet();
-        //        adapter.Fill(ds);
-        //        dataGridView1.DataSource = ds.Tables[0];
-        //        connection.Close();
-        //    }
-        //}
+       
 
         private void btnBackPage_Click(object sender, EventArgs e)
         {
@@ -140,6 +127,11 @@ namespace EducationalPractice
         }
 
         private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }
