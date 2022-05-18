@@ -34,5 +34,10 @@ namespace EducationalPractice
         {
             this.Close();
         }
+
+        private void FormAddClient_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

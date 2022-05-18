@@ -29,9 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormClients));
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
@@ -45,43 +42,10 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(228)))), ((int)(((byte)(225)))));
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Location = new System.Drawing.Point(-28, -14);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1311, 96);
-            this.panel1.TabIndex = 0;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Tahoma", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(74)))), ((int)(((byte)(109)))));
-            this.label1.Location = new System.Drawing.Point(174, 17);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(376, 35);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Салон красоты \"Мордочка\"";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::EducationalPractice.Properties.Resources.beauty_logo;
-            this.pictureBox1.Location = new System.Drawing.Point(40, 17);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(128, 77);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
             // 
             // panel2
             // 
@@ -109,7 +73,7 @@
             this.dataGridView1.AllowUserToDeleteRows = false;
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 86);
+            this.dataGridView1.Location = new System.Drawing.Point(3, 12);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.Size = new System.Drawing.Size(1241, 574);
@@ -119,10 +83,10 @@
             // 
             // btnBackPage
             // 
-            this.btnBackPage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(74)))), ((int)(((byte)(109)))));
+            this.btnBackPage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.btnBackPage.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBackPage.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnBackPage.Location = new System.Drawing.Point(550, 673);
+            this.btnBackPage.Location = new System.Drawing.Point(486, 616);
             this.btnBackPage.Name = "btnBackPage";
             this.btnBackPage.Size = new System.Drawing.Size(101, 23);
             this.btnBackPage.TabIndex = 4;
@@ -132,10 +96,10 @@
             // 
             // btnNextPage
             // 
-            this.btnNextPage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(74)))), ((int)(((byte)(109)))));
+            this.btnNextPage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.btnNextPage.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnNextPage.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnNextPage.Location = new System.Drawing.Point(708, 673);
+            this.btnNextPage.Location = new System.Drawing.Point(644, 616);
             this.btnNextPage.Name = "btnNextPage";
             this.btnNextPage.Size = new System.Drawing.Size(101, 23);
             this.btnNextPage.TabIndex = 5;
@@ -145,10 +109,10 @@
             // 
             // btnDeleteRow
             // 
-            this.btnDeleteRow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(74)))), ((int)(((byte)(109)))));
+            this.btnDeleteRow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.btnDeleteRow.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDeleteRow.ForeColor = System.Drawing.Color.Snow;
-            this.btnDeleteRow.Location = new System.Drawing.Point(1132, 666);
+            this.btnDeleteRow.Location = new System.Drawing.Point(1123, 609);
             this.btnDeleteRow.Name = "btnDeleteRow";
             this.btnDeleteRow.Size = new System.Drawing.Size(121, 37);
             this.btnDeleteRow.TabIndex = 7;
@@ -158,10 +122,10 @@
             // 
             // btnAddClient
             // 
-            this.btnAddClient.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(74)))), ((int)(((byte)(109)))));
+            this.btnAddClient.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.btnAddClient.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAddClient.ForeColor = System.Drawing.Color.Snow;
-            this.btnAddClient.Location = new System.Drawing.Point(991, 666);
+            this.btnAddClient.Location = new System.Drawing.Point(982, 609);
             this.btnAddClient.Name = "btnAddClient";
             this.btnAddClient.Size = new System.Drawing.Size(121, 37);
             this.btnAddClient.TabIndex = 8;
@@ -223,7 +187,7 @@
             this.groupBox1.Controls.Add(this.button2);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Location = new System.Drawing.Point(13, 666);
+            this.groupBox1.Location = new System.Drawing.Point(4, 592);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(370, 60);
             this.groupBox1.TabIndex = 19;
@@ -234,7 +198,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1265, 729);
+            this.ClientSize = new System.Drawing.Size(1265, 661);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btnAddClient);
             this.Controls.Add(this.btnDeleteRow);
@@ -242,7 +206,6 @@
             this.Controls.Add(this.btnBackPage);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
@@ -250,9 +213,6 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Работа с клиентами";
             this.Load += new System.EventHandler(this.FormClients_Load);
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
@@ -263,10 +223,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button btnBackPage;
